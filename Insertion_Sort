@@ -1,4 +1,4 @@
-Insertion sort sorts every element to its correct location in every pass
+Insertion sort sorts every element to its correct location in every pass. Also called as ONLINE ALGORITHM
 *BEST CASE (lowerbound):  O(n)
 swapping complexity: O(1)
 comparison complexity: O(n)
