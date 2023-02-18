@@ -1,0 +1,33 @@
+Insertion sort sorts every element to its correct location in every pass
+*BEST CASE (lowerbound):  O(n)
+swapping complexity: O(1)
+comparison complexity: O(n)
+
+
+*WORST CASE (upperbound):  O(n^2)
+swapping complexity: O(n^2)
+comparison complexity: O(n^2)
+
+*AVERAGE CASE :  O(n^2)
+swapping complexity: O(n^2)
+comparison complexity: O(n^2)
+
+CODE:
+void insert(int arr[], int i)
+    {
+        //code here
+          while(i > 0 && arr[i - 1] > arr[i]){
+           int temp = arr[i -1];
+           arr[i - 1] = arr[i];
+           arr[i] = temp;
+           i--;
+       }
+    }
+    
+    void insertionSort(int arr[], int n)
+    {
+        //code here
+         for(int j=0; j<n; j++){
+          insert(arr , j);
+      }
+    }
