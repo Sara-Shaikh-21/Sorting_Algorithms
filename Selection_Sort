@@ -1,4 +1,4 @@
-//Selection Sort sorts the smallest element first getting the smallest element to the start in each of the pass
+//Selection Sort sorts the smallest element first by getting the smallest element to the start in each of the pass
 *BEST CASE: O(n^2)
 swapping complexity: O(1)
 comparison complexity: O(n^2)
