@@ -1,0 +1,15 @@
+Bubble sort is a sorting technique that sorts the largest element first by placing the largest at its correct location in each of its pass
+Worst Case Complexity: O(n^2)
+
+CODE
+void bubbleSort(int arr[], int n)
+    {
+        // Your code here
+        for(int i=0;i<n-1;i++){
+            for(int j=0;j<n-1;j++){
+                if(arr[j]>arr[j+1]){
+                    swap(arr[j],arr[j+1]);
+                }
+            }
+        }
+    }
